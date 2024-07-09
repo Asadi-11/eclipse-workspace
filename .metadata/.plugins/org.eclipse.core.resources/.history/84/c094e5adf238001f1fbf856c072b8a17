@@ -1,0 +1,20 @@
+package methods_constructors;
+
+public class methods {
+
+	//method m1 declare
+	void m1() {
+		System.out.println("Hi");
+		System.out.println("How are you doing?");
+	}
+	public static void main(String[] args) {
+		
+		//Object creation
+		methods m= new methods();
+		
+		//using object variable 'm' 
+		m.m1();
+
+	}
+
+}

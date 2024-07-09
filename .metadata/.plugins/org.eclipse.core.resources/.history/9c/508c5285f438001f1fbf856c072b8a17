@@ -1,0 +1,18 @@
+package methods_constructors;
+
+public class methodsmain {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		//Object creation
+		methods m= new methods();
+		
+		//using object variable 'm' 
+		m.m1();
+		
+		int result= m.m2();
+	
+
+	}
+
+}

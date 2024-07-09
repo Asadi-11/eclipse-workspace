@@ -1,0 +1,15 @@
+package methods_constructors;
+
+public class studentmain_constructor {
+
+	public static void main(String[] args) {
+		
+		student std= new student());
+		
+		
+		
+		std.Student_details();
+
+	}
+
+}

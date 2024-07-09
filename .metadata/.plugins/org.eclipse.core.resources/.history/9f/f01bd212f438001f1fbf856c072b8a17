@@ -1,0 +1,20 @@
+package methods_constructors;
+
+public class methods {
+
+	int a=20;
+	int b= 30;
+	//method m1 declare with no parameters and no return value
+	void m1() throws InterruptedException {
+		System.out.println("Hi");
+		Thread.sleep(2000);
+		System.out.println("How are you doing?");
+	}
+	
+	//method with no parameters return value
+	String m2() {
+		return ("I'm fine");
+	}
+	
+
+}

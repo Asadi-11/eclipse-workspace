@@ -1,0 +1,21 @@
+package methods_constructors;
+
+public class methods {
+
+	//method m1 declare with no parameters and no return value
+	void m1() throws InterruptedException {
+		System.out.println("Hi");
+		Thread.sleep(2000);
+		System.out.println("How are you doing?");
+	}
+	public static void main(String[] args) throws InterruptedException {
+		
+		//Object creation
+		methods m= new methods();
+		
+		//using object variable 'm' 
+		m.m1();
+
+	}
+
+}

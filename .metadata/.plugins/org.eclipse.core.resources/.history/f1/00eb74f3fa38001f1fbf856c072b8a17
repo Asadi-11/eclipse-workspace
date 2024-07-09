@@ -1,0 +1,24 @@
+package methods_constructors;
+
+public class student_constructor {
+	
+	int sid;
+	String name;
+	int total_marks;
+	String grade;
+	
+	student_constructor(int id, String sname, int marks, String g){
+		
+		sid= id;
+		name= sname;
+		total_marks= marks;
+		grade= g;
+	}
+	
+	void Student_details() {
+		
+		System.out.println(sid+" "+name+" "+total_marks+" "+grade);
+	}
+	
+
+}

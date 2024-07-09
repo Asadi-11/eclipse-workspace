@@ -1,0 +1,15 @@
+package polymorphism;
+
+public class polymorphism_main {
+
+	public static void main(String[] args) {
+		
+		polymorphism_class pc= new polymorphism_class();
+		
+		pc.sum();
+		
+		
+		
+	}
+
+}

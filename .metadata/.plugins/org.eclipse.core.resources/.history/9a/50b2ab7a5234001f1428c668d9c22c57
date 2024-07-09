@@ -1,0 +1,10 @@
+package javaAccess_modi;
+
+public class javamodifiers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
